@@ -82,7 +82,6 @@ float **compute(int (*coor)[2], int m){
 		}
 	return c;
 }
-
 void InitHeap(PMinHeap minHeap, int maxSize){
 	minHeap->HeapArray = (PHeapNode *)malloc(maxSize * sizeof(PHeapNode));
 	if (minHeap->HeapArray == NULL) exit(-1);
